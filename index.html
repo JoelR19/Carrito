@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprita</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>LISTA DE PRODUCTOS</h1>
+      
+      <div class="carrito">
+        <img src="https://cdn-icons-png.flaticon.com/512/9284/9284424.png" alt="">
+        <span id="conteo"></span>
+      </div>
+    </header>
+
+    <ul>
+      <li>
+        <img src="https://lh6.googleusercontent.com/proxy/TIlnylXvhYIMRtHk7c4CaDpNTZLOyaq10fhFlLUq3Uz5dt_LCMcJXSpRuq3FLtT5lgOg33_ucbX1fBf3jAxMdvN8MJjyU60jajmvSykPqUfj" alt="" class="imagenes">
+        Sprike
+        <button
+          onclick="agregarCosas('sprike' , 'Producto Aleman', '$12.000', 'https://lh6.googleusercontent.com/proxy/TIlnylXvhYIMRtHk7c4CaDpNTZLOyaq10fhFlLUq3Uz5dt_LCMcJXSpRuq3FLtT5lgOg33_ucbX1fBf3jAxMdvN8MJjyU60jajmvSykPqUfj')"
+        >
+          Agregar
+        </button>
+      </li>
+      <li>
+        <img src="https://drinkcentral.co/wp-content/uploads/2023/03/COCA-COLA-LATA-235ml.webp" alt="" class="imagenes">
+        CocaCola
+        <button
+          onclick="agregarCosas('Coca-Cola' , 'Producto EEUU', '$10.000', 'https://drinkcentral.co/wp-content/uploads/2023/03/COCA-COLA-LATA-235ml.webp')"
+        >
+        Agregar
+        </button>
+      </li>
+      <li>
+        <img src="https://212global.com/wp-content/uploads/2024/07/61a696f64f1abdd16726b639_thumbnail.png" alt="" class="imagenes">
+        Pepsi
+        <button
+          onclick="agregarCosas('Pepsi' , 'Producto EEUU', '$14.000', 'https://212global.com/wp-content/uploads/2024/07/61a696f64f1abdd16726b639_thumbnail.png')"
+        >
+        Agregar
+        </button>
+      </li>
+      <li>
+        <img src="https://mercaditolalomahn.com/wp-content/uploads/2020/10/NTgzZTdjMz-1000x1000-1.png" alt="" class="imagenes">
+        Canada
+        <button
+          onclick="agregarCosas('Canada Dry' , 'Producto EEUU', '$17.000', 'https://mercaditolalomahn.com/wp-content/uploads/2020/10/NTgzZTdjMz-1000x1000-1.png')"
+        >
+        Agregar
+        </button>
+      </li>
+      <li>
+        <img src="https://catalogodelmundo.com/wp-content/uploads/2023/03/Postobon-lata-editado.png" alt="" class="imagenes">
+        Postobon
+        <button
+          onclick="agregarCosas('Postobon Manzana' , 'Producto Colombiano', '$18.000', 'https://catalogodelmundo.com/wp-content/uploads/2023/03/Postobon-lata-editado.png')"
+        >
+        Agregar
+        </button>
+      </li>
+      
+    </ul>
+
+    <div id="product"></div>
+
+
+  </body>
+  <script src="./main.js"></script>
+</html>
